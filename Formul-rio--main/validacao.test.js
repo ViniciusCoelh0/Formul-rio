@@ -1,4 +1,4 @@
-const { JSDOM } = require('jsdom');
+const { JSDOM } = require('jsdom'); // npm install jsdom
 
 // Carrega o arquivo HTML do formulário
 const html = `
