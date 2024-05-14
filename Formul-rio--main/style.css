@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #3ad29f;
+    font-size: 20px;
+}
+
+.outBox{
+    width: 35%;
+    margin: 40px 32%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+h1{
+    text-align: center;
+    color: #183b2b;
+}
+
+.innerbox{
+    margin-top: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input:focus{
+    outline: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="radio"]{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 2px solid #009856;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input:hover{
+    background-color: #e7e7e7;
+    transition: 2s;
+}
+
+.radio-group {
+    display: flex;
+    font-size: 15px;
+}
+
+.radio-group label {
+    margin-right: 20px;
+}
+
+
+input[type="radio"]{
+    display: flex;
+    width: 20px;
+    margin-right: 10px;
+}
+
+button[type="submit"]{
+    background-color: #05874f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover{
+    background-color: #014226;
+    transform: scale(1.1);
+    transition: 2s;
+}
